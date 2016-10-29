@@ -1,0 +1,14 @@
+python knockknock.py -p dylib -j > "$HOSTNAME"_dylib.json
+python knockknock.py -p authorizationPlugin -j > "$HOSTNAME"_authorizationPlugin.json
+python knockknock.py -p browserExtension -j > "$HOSTNAME"_browserExtension.json
+python knockknock.py -p cronjob -j > "$HOSTNAME"_cronjob.json
+python knockknock.py -p kext -j > "$HOSTNAME"_kext.json
+python knockknock.py -p launchDandA -j > "$HOSTNAME"_launchDandA.json
+python knockknock.py -p launchdConf -j > "$HOSTNAME"_launchdConf.json
+python knockknock.py -p loginItem -j > "$HOSTNAME"_loginItem.json
+python knockknock.py -p logHook -j > "$HOSTNAME"_logHook.json
+python knockknock.py -p overRide -j > "$HOSTNAME"_overRide.json
+python knockknock.py -p rcScript -j > "$HOSTNAME"_rcScript.json
+python knockknock.py -p spotlightImporter -j > "$HOSTNAME"_spotlightImporter.json
+python knockknock.py -p startupItem -j > "$HOSTNAME"_startupItem.json
+python knockknock.py -p unclassified -j > "$HOSTNAME"_unclassified.json
