@@ -12,3 +12,17 @@ python knockknock.py -p rcScript -j > "$HOSTNAME"_rcScript.json
 python knockknock.py -p spotlightImporter -j > "$HOSTNAME"_spotlightImporter.json
 python knockknock.py -p startupItem -j > "$HOSTNAME"_startupItem.json
 python knockknock.py -p unclassified -j > "$HOSTNAME"_unclassified.json
+python knockknock.py -p dylib > "$HOSTNAME"_dylib.txt
+python knockknock.py -p authorizationPlugin > "$HOSTNAME"_authorizationPlugin.txt
+python knockknock.py -p browserExtension > "$HOSTNAME"_browserExtension.txt
+python knockknock.py -p cronjob > "$HOSTNAME"_cronjob.txt
+python knockknock.py -p kext > "$HOSTNAME"_kext.txt
+python knockknock.py -p launchDandA > "$HOSTNAME"_launchDandA.txt
+python knockknock.py -p launchdConf > "$HOSTNAME"_launchdConf.txt
+python knockknock.py -p loginItem > "$HOSTNAME"_loginItem.txt
+python knockknock.py -p logHook > "$HOSTNAME"_logHook.txt
+python knockknock.py -p overRide > "$HOSTNAME"_overRide.txt
+python knockknock.py -p rcScript > "$HOSTNAME"_rcScript.txt
+python knockknock.py -p spotlightImporter > "$HOSTNAME"_spotlightImporter.txt
+python knockknock.py -p startupItem > "$HOSTNAME"_startupItem.txt
+python knockknock.py -p unclassified > "$HOSTNAME"_unclassified.txt
